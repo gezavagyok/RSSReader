@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "758078417653",
+    "firebase_url": "https://rssreader-geza.firebaseio.com",
+    "project_id": "rssreader-geza",
+    "storage_bucket": "rssreader-geza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758078417653:android:da51dd7c480e5e81",
+        "android_client_info": {
+          "package_name": "tek.gezacsorba.rssreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758078417653-apujqasu1ohcigv7m3ivc7jgvnq8lup2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tek.gezacsorba.rssreader",
+            "certificate_hash": "52f881845f65b540e06f83899e378c3e910196bb"
+          }
+        },
+        {
+          "client_id": "758078417653-t9hobcb1320jr2gfi8fedctsl5uvjoaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7ZyVGIr8js1uLqLTsCRinmoHccxg5Eaw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758078417653-t9hobcb1320jr2gfi8fedctsl5uvjoaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
