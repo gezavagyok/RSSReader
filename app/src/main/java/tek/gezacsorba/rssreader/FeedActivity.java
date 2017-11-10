@@ -48,7 +48,7 @@ import tek.gezacsorba.rssreader.feed.details.FeedDetailsActivity;
 import tek.gezacsorba.rssreader.feed.items.FeedItem;
 
 public class FeedActivity extends BaseActivity
-        implements FeedContract.View, GestureDetector.OnGestureListener {
+        implements FeedContract.View {
 
     @Inject
     FeedContract.Presenter presenter;
@@ -159,9 +159,6 @@ public class FeedActivity extends BaseActivity
                             break;
                     }
                 });
-
-
-        // todo navigation subscribe
     }
 
     @Override
@@ -204,39 +201,6 @@ public class FeedActivity extends BaseActivity
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public boolean onDown(MotionEvent e) {
-        return false;
-    }
 
-    @Override
-    public void onShowPress(MotionEvent e) {
 
-    }
-
-    @Override
-    public boolean onSingleTapUp(MotionEvent e) {
-        return false;
-    }
-
-    @Override
-    public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
-        return false;
-    }
-
-    @Override
-    public void onLongPress(MotionEvent e) {
-
-    }
-
-    @Override
-    public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-        if(e1.getX()>e2.getX()) {
-            presenter.loadNextFeed();
-        }
-        if(e1.getX()<e2.getX()){
-            presenter.loadPreviousFeed();
-        }
-        return false;
-    }
 }
